@@ -11,9 +11,14 @@
 
 ✅ STEP 3: Stage and Commit Files
 <pre>
-  git add .           # Stage all files
+  git add . 
   git commit -m "Initial commit"
 
+</pre>
+`git add .` for all files in the directory.
+to add specific file : 
+<pre>
+  git add <file_name>
 </pre>
 
 ✅ STEP 4: Create a New Repo on GitHub
@@ -29,7 +34,7 @@
 
 ✅ STEP 6: Push Code to GitHub
 <pre>
-git branch -M main               # Rename to main if needed
+git branch -M main         
 git push -u origin main
   
 </pre>
@@ -63,20 +68,30 @@ git branch -M main
 git push -u origin main
 </pre>
 
-##Some useful commands
+## Some useful commands
 -- to check url 
 <pre>
   git remote -v
 </pre>
 
--- creating branches
-create branch 
+# creating branches
+to create and use braches 
+# 1. create branch 
 <pre>
   git branch <branch_name>
 </pre>
 
-shift branch 
+# 2. shift branch 
 <pre>
   git checkout <branch_name>
 </pre>
 
+# 3. Combine both commands 
+<pre>
+  git checkout -b <branch_name>
+</pre>
+
+if you pc/laptop have multiple git account and you are confused how to config and error occured then
+-> Search for `credential manager` in `searchbar`
+-> Go to `Windows crediential ` 
+-> Locate `github` and remove it.
