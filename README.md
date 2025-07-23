@@ -21,11 +21,11 @@ to add specific file :
   git add <file_name>
 </pre>
 
-✅ STEP 4: Create a New Repo on GitHub
-1 Go to https://github.com
-2 Click ➕ → "New repository"
-3 Don’t initialize with a README (optional)
-4 Copy the repo URL (HTTPS or SSH)
+✅ STEP 4: Create a New Repo on GitHub<br>
+1 Go to https://github.com<br>
+2 Click ➕ → "New repository"<br>
+3 Don’t initialize with a README (optional)<br>
+4 Copy the repo URL (HTTPS or SSH)<br>
 
 ✅ STEP 5: Connect Local Repo to GitHub
 <pre>
@@ -90,7 +90,8 @@ to create and use braches
 <pre>
   git checkout -b <branch_name>
 </pre>
-
+<br><br>
+## credential Manager 
 if you pc/laptop have multiple git account and you are confused how to config and error occured then
 -> Search for `credential manager` in `searchbar`
 -> Go to `Windows crediential ` 
