@@ -1,7 +1,8 @@
 ✅ STEP 1: Configure Git (First Time Only)
 <pre> 
-  git config --user.name "Chetanpatil03"
-  git config --user.pass "pass"
+  git config --global user.name "Chetanpatil03"
+  git config --global user.email "your-email"
+  git config --list
 </pre>
 
 ✅ STEP 2: Initialize a Git Repository
