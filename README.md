@@ -97,3 +97,57 @@ if you pc/laptop have multiple git account and you are confused how to config an
 -> Search for `credential manager` in `searchbar`
 -> Go to `Windows crediential ` 
 -> Locate `github` and remove it.
+
+
+## Pull Request : 
+1. Clone the GitHub Repo to Your Local Machine
+First, open your terminal (or Git Bash, if on Windows).
+
+Run:
+<pre>
+  git clone https://github.com/username/repo-name.git
+</pre>
+
+Replace username and repo-name with the actual repo info.
+This will download the entire repo into a folder named repo-name on your machine.
+
+2. Navigate Into the Repo Folder
+<pre>
+  cd repo-name
+</pre>
+
+3. Create and Switch to a New Branch
+To create a new branch and switch to it immediately, run:
+<pre>
+  git checkout -b new-branch-name
+</pre>
+Replace new-branch-name with your branch name (e.g., feature/login).
+
+4. Make Your Changes
+Edit files as needed in your local files.
+
+5. Stage and Commit Your Changes
+<pre>
+  git add .
+</pre>
+Then commit:
+<pre>
+  git commit -m "Describe your changes here"
+</pre>
+
+6. Push Your Branch to GitHub
+To publish your branch on GitHub:
+<pre>
+  git push origin new-branch-name
+</pre>
+
+##summary : 
+<pre>
+git clone https://github.com/username/repo-name.git
+cd repo-name
+git checkout -b new-branch-name
+# make changes to files
+git add .
+git commit -m "Your commit message"
+git push origin new-branch-name
+</pre>
