@@ -1,0 +1,25 @@
+🔁 Git Workflow Summary (Local to GitHub)
+Clone the repo
+git clone <repo-url>
+
+Create a branch
+git checkout -b feature/my-feature
+
+Make changes
+Edit files in your editor
+
+Stage and commit
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Add my feature"
+Push your branch
+git push origin feature/my-feature
+
+Create a Pull Request (PR)
+On GitHub → Compare & Pull Request → Create PR
+
+Review, approve, and merge
+Merge PR into main or develop
