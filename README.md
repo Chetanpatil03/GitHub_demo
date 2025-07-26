@@ -1,3 +1,8 @@
+# Git Bash Commands 
+--
+
+## Creating repo and publishing
+--
 ✅ STEP 1: Configure Git (First Time Only)
 <pre> 
   git config --global user.name "Chetanpatil03"
@@ -98,8 +103,9 @@ if you pc/laptop have multiple git account and you are confused how to config an
 -> Go to `Windows crediential ` 
 -> Locate `github` and remove it.
 
-
-## Pull Request : 
+--
+# Pull Request : 
+--
 1. Clone the GitHub Repo to Your Local Machine
 First, open your terminal (or Git Bash, if on Windows).
 
