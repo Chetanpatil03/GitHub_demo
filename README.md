@@ -147,6 +147,18 @@ To publish your branch on GitHub:
   git push origin new-branch-name
 </pre>
 
+7. Checkout to main for merge the branch into main branch
+   <pre>
+     git chechout main
+   </pre>
+8. Merge the branch
+   <pre>
+     git merge -new-branch-name
+   </pre>
+9. Push the merge to remote
+    <pre>
+      git push -u origin main
+    </pre>
 ##summary : 
 <pre>
 git clone https://github.com/username/repo-name.git
@@ -156,4 +168,8 @@ git checkout -b new-branch-name
 git add .
 git commit -m "Your commit message"
 git push origin new-branch-name
+git checkout main
+git merge new-branch-name
+git push origin main
 </pre>
+
