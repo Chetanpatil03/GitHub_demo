@@ -9,6 +9,12 @@
   git config --global user.email "your-email"
   git config --list
 </pre>
+- to unset the global user
+<pre> 
+  git config --global --unset user.name
+  git config --global --unset user.email
+  git config --list
+</pre>
 
 ✅ STEP 2: Initialize a Git Repository
 <pre>
@@ -173,3 +179,24 @@ git merge new-branch-name
 git push origin main
 </pre>
 
+# to revert changes / undo the commit-push
+- when the  commit is pushed into repository use this
+
+1. First get the ```hash``` of the recent commit using :
+   <pre>
+     git log
+   </pre>
+   This will show the alpha-numerical value. Ex.```9d1f1e8f5e4f0c57a12bcd1ba41a227f4b15c5d8```
+2. Revert the Commit
+     Once you have the commit hash, you can run:
+   <pre>
+     git revert <commit-hash>
+   </pre>
+   Ex. : ```git revert 9d1f1e8f5e4f0c57a12bcd1ba41a227f4b15c5d8```
+   This will open the editor and delete message ```save``` and ```exit``` from editior
+   Nano :- ESC + :wq
+   VIM :-  to save ```ctrl + O``` and exit ```ctrl + X```
+3. Push the commit after Saving and Closing:
+   <pre>
+     git push origin <branch-name>
+   </pre>
