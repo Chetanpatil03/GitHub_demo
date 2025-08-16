@@ -88,14 +88,14 @@ git push -u origin main
   git diff
 </pre>
 
-# creating branches
-to create and use braches 
-## 1. create branch 
+# Creating branches 
+To create and use braches 
+## 1. Create branch 
 <pre>
   git branch <branch_name>
 </pre>
 
-## 2. shift branch 
+## 2. Shift branch 
 <pre>
   git checkout <branch_name>
 </pre>
@@ -106,7 +106,7 @@ to create and use braches
 </pre>
 <br><br>
 
-# credential Manager 
+# Credential Manager 
 if you pc/laptop have multiple git account and you are confused how to config and error occured then
 -> Search for `credential manager` in `searchbar`
 -> Go to `Windows crediential ` 
@@ -167,7 +167,7 @@ To publish your branch on GitHub:
       git push -u origin main
     </pre>
 
-# summary Pull/Clone Requests: 
+# Summary Pull/Clone Requests: 
 <pre>
 git clone https://github.com/username/repo-name.git
 cd repo-name
@@ -180,4 +180,69 @@ git checkout main
 git merge new-branch-name
 git push origin main
 </pre>
+
+# Reverting Changes/ Undo the changes
+To revert the changes we can use the ```git revert``` command.
+
+## 🔁 **To Revert a Commit (Safe for Pushed Commits)**
+
+This method creates a new commit that undoes the changes from a previous one.
+
+### ✅ Step-by-Step:
+
+1. **View the commit history:**
+
+   ```bash
+   git log --oneline
+   ```
+
+   Example output:
+
+   ```
+   a1b2c3d Revert "Add login feature"
+   1234567 Add login feature
+   89abcde Initial commit
+   ```
+
+2. **Copy the hash** of the commit you want to revert (e.g., `1234567`).
+
+3. **Revert the commit:**
+
+   ```bash
+   git revert 1234567
+   ```
+
+4. **Save the commit message** (Git will open your default editor — just save and close).
+
+5. **Push the changes (if needed):**
+
+   ```bash
+   git push origin <branch-name>
+   ```
+
+---
+
+## 🧹 **To Completely Undo a Commit (Local Only)**
+
+This is for when you **haven't pushed the commit yet** and want to **erase it**.
+
+### Option 1: Keep the changes (just undo the commit)
+
+```bash
+git reset --soft HEAD~1
+```
+
+### Option 2: Unstage and keep changes
+
+```bash
+git reset --mixed HEAD~1
+```
+
+### Option 3: Remove commit and discard changes
+
+```bash
+git reset --hard HEAD~1
+```
+
+> Replace `HEAD~1` with `HEAD~2`, etc., if you're undoing further back.
 
