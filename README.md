@@ -82,22 +82,23 @@ git push -u origin main
 
 # creating branches
 to create and use braches 
-# 1. create branch 
+## 1. create branch 
 <pre>
   git branch <branch_name>
 </pre>
 
-# 2. shift branch 
+## 2. shift branch 
 <pre>
   git checkout <branch_name>
 </pre>
 
-# 3. Combine both commands 
+## 3. Combine both commands 
 <pre>
   git checkout -b <branch_name>
 </pre>
 <br><br>
-## credential Manager 
+
+# credential Manager 
 if you pc/laptop have multiple git account and you are confused how to config and error occured then
 -> Search for `credential manager` in `searchbar`
 -> Go to `Windows crediential ` 
@@ -159,7 +160,8 @@ To publish your branch on GitHub:
     <pre>
       git push -u origin main
     </pre>
-##summary : 
+
+# summary Pull: 
 <pre>
 git clone https://github.com/username/repo-name.git
 cd repo-name
