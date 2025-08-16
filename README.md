@@ -3,19 +3,19 @@
 
 ## Creating repo and publishing
 --
-✅ STEP 1: Configure Git (First Time Only)
+### ✅ STEP 1: Configure Git (First Time Only)
 <pre> 
   git config --global user.name "Chetanpatil03"
   git config --global user.email "your-email"
   git config --list
 </pre>
 
-✅ STEP 2: Initialize a Git Repository
+### ✅ STEP 2: Initialize a Git Repository
 <pre>
   git init
 </pre>
 
-✅ STEP 3: Stage and Commit Files
+### ✅ STEP 3: Stage and Commit Files
 <pre>
   git add . 
   git commit -m "Initial commit"
@@ -27,18 +27,18 @@ to add specific file :
   git add <file_name>
 </pre>
 
-✅ STEP 4: Create a New Repo on GitHub<br>
+### ✅ STEP 4: Create a New Repo on GitHub<br>
 1 Go to https://github.com<br>
 2 Click ➕ → "New repository"<br>
 3 Don’t initialize with a README (optional)<br>
 4 Copy the repo URL (HTTPS or SSH)<br>
 
-✅ STEP 5: Connect Local Repo to GitHub
+### ✅ STEP 5: Connect Local Repo to GitHub
 <pre>
   git remote add origin https://github.com/yourusername/your-repo.git
 </pre>
 
-✅ STEP 6: Push Code to GitHub
+### ✅ STEP 6: Push Code to GitHub
 <pre>
 git branch -M main         
 git push -u origin main
@@ -46,7 +46,7 @@ git push -u origin main
 </pre>
 
 
-✅ STEP 7: Make Ongoing Changes
+### ✅ STEP 7: Make Ongoing Changes
 <pre>
   git add .
   git commit -m "Describe your changes"
@@ -78,6 +78,14 @@ git push -u origin main
 -- to check url 
 <pre>
   git remote -v
+</pre>
+-- to see the history
+<pre>
+  git log
+</pre>
+-- To Find the difference between two commits
+<pre>
+  git diff
 </pre>
 
 # creating branches
@@ -159,7 +167,7 @@ To publish your branch on GitHub:
       git push -u origin main
     </pre>
 
-# summary Pull: 
+# summary Pull/Clone Requests: 
 <pre>
 git clone https://github.com/username/repo-name.git
 cd repo-name
