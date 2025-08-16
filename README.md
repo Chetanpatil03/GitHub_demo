@@ -106,10 +106,8 @@ if you pc/laptop have multiple git account and you are confused how to config an
 
 --
 # Pull Request : 
---
-1. Clone the GitHub Repo to Your Local Machine
+## 1. Clone the GitHub Repo to Your Local Machine
 First, open your terminal (or Git Bash, if on Windows).
-
 Run:
 <pre>
   git clone https://github.com/username/repo-name.git
@@ -118,22 +116,22 @@ Run:
 Replace username and repo-name with the actual repo info.
 This will download the entire repo into a folder named repo-name on your machine.
 
-2. Navigate Into the Repo Folder
+## 2. Navigate Into the Repo Folder
 <pre>
   cd repo-name
 </pre>
 
-3. Create and Switch to a New Branch
+## 3. Create and Switch to a New Branch
 To create a new branch and switch to it immediately, run:
 <pre>
   git checkout -b new-branch-name
 </pre>
 Replace new-branch-name with your branch name (e.g., feature/login).
 
-4. Make Your Changes
+## 4. Make Your Changes
 Edit files as needed in your local files.
 
-5. Stage and Commit Your Changes
+## 5. Stage and Commit Your Changes
 <pre>
   git add .
 </pre>
@@ -142,21 +140,21 @@ Then commit:
   git commit -m "Describe your changes here"
 </pre>
 
-6. Push Your Branch to GitHub
+## 6. Push Your Branch to GitHub
 To publish your branch on GitHub:
 <pre>
   git push origin new-branch-name
 </pre>
 
-7. Checkout to main for merge the branch into main branch
+## 7. Checkout to main for merge the branch into main branch
    <pre>
      git chechout main
    </pre>
-8. Merge the branch
+## 8. Merge the branch
    <pre>
      git merge -new-branch-name
    </pre>
-9. Push the merge to remote
+## 9. Push the merge to remote
     <pre>
       git push -u origin main
     </pre>
