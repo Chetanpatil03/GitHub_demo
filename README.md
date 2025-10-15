@@ -107,10 +107,10 @@ To create and use braches
 <br><br>
 
 # Credential Manager 
-if you pc/laptop have multiple git account and you are confused how to config and error occured then
--> Search for `credential manager` in `searchbar`
--> Go to `Windows crediential ` 
--> Locate `github` and remove it.
+if you pc/laptop have multiple git account and you are confused how to config and error occured then<br>
+-> Search for `credential manager` in `searchbar`<br>
+-> Go to `Windows crediential ` <br>
+-> Locate `github` and remove it.<br>
 
 --
 # Pull Request : 
@@ -163,9 +163,9 @@ To publish your branch on GitHub:
      git merge -new-branch-name
    </pre>
 ## 9. Push the merge to remote
-    <pre>
+  <pre>
       git push -u origin main
-    </pre>
+  </pre>
 
 # Summary Pull/Clone Requests: 
 <pre>
