@@ -257,10 +257,10 @@ CMD ["nginx", "-g", "daemon off;"]
 </pre>
 
 3. build docker image
-<pre>docker build -t <docker_app> </pre>
+```docker build -t <docker_app>```
 
 4. Run webapp 
-<pre>docker run -d -p 8080:80 <docker_app></pre>
+```docker run -d -p 8080:80 <docker_app>```
 
 5. Test docker image with ```http://localhost:8080```
 
