@@ -246,3 +246,23 @@ git reset --hard HEAD~1
 
 > Replace `HEAD~1` with `HEAD~2`, etc., if you're undoing further back.
 
+## docker file 
+1. Creating html file (index.html)
+2. creating docker file (dockerfile)
+<pre>
+FROM nginx
+COPY index.html /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+</pre>
+
+3. build docker image
+<pre>docker build -t <docker_app> </pre>
+
+4. Run webapp 
+<pre>docker run -d -p 8080:80 <docker_app></pre>
+
+5. Test docker image with ```http://localhost:8080```
+
+
+
