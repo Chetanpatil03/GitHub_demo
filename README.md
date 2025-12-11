@@ -263,10 +263,9 @@ CMD ["nginx", "-g", "daemon off;"]
 ```docker run -d -p 8080:80 <docker_app>```
 
 5. Test docker image with ```http://localhost:8080```
-6. 
 
 This is primarily created for Github practicals 
-
+-- 
 Created by CHETAN ❤️
 
 
